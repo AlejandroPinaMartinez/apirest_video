@@ -58,7 +58,5 @@ public class ClienteControlador {
         HashMap<String, Boolean> estadoClienteEliminado = new HashMap<>();
         estadoClienteEliminado.put("eliminado", true);
         return ResponseEntity.ok(estadoClienteEliminado);
-
-
     }
 }
